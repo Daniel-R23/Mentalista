@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  width:100vw;
+  min-height:100vh;
+  background-color:#ecf0f3;
+  color:#555;
+}
+header{
+  height:10vh;
+  width:100vw;
+  position:relative;
+  top:20px;
+  border-radius:5px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-bottom:20px;
+}
+.page-logo{
+  width:100px;
+}
+.page-title{
+  text-align:center;
+  margin-right:50px;
+}
+.alura-logo{
+  width:50px;
+  filter:invert(1);
+}
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:column;
+  height:80vh;
+  width:100vw;
+}
+#card{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-flow:column;
+  height:430px;
+  width:350px;
+  padding:20px 35px 35px 35px;
+  background-color:#ecf0f3;
+  border-radius:40px;
+  box-shadow:13px 13px 20px #cbced1,
+             -13px -13px 10px #fdfdfd;
+}
+.label{
+  display:block;
+  font-size:1.2em;
+  text-align:center;
+  line-height:40px;
+}
+#tent{
+  margin-top:15px;
+  display:block;
+  background-color:#ecf0f3;
+  padding:10px;
+  border-radius:15px;
+  box-shadow: 2px 2px 3px #cbced1,
+              -2px -2px 3px #fff;
+}
+#tent>p{
+  line-height:10px;
+}
+#tent>p>span{
+  color:#40c4ff
+}
+input{
+  margin-top:30px;
+  width:100%;
+  padding:10px 10px 10px 5px;
+  border:none;
+  outline:none;
+  background:none;
+  font-size:18px;
+  color:#555;
+  border-radius:10px;
+  box-shadow: inset 3px 3px 3px #cbced1,
+              inset -3px -3px 3px #fbfbfb;
+}
+button{
+  margin-top:0px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  width:95%;
+  height:50px;
+  border-radius:30px;
+  font-size:20px;
+  font-weight:700;
+  font-family:'Lato', sans-serif;
+  color:#fff;
+  text-align:center;
+  background-color:#40c4ff;
+  box-shadow:3px 3px 8px #b1b1b1,
+             -3px -3px 8px #fff;
+  transition:0.5s;
+}
+button:hover{
+  background-color:#359bc9;
+}
+button:active{
+  background-color:#65c6f1;
+}
+.resultado{
+  font-weight:400;
+  font-size:1.2em;
+  margin-top:30px;
+  text-align:center;
+}
+footer>p{
+  text-align:center;
+  color:#555;
+}
